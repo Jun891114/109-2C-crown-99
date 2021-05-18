@@ -27,7 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/crown_xx', crown_xx_Router);
 app.use('/crown2_xx', crown2_xx_Router);
-app.use('/api',apiRouter);
+app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
